@@ -65996,17 +65996,14 @@ s.rE(0,s.gayJ(),t.GK)
 s.rE(0,s.garf(),t.Ac)
 this.d=s},
 m(){this.aO()},
-H(a){var s,r,q,p,o,n,m,l=null
+H(a){var s,r,q,p,o=null
 $.al.toString
 s=$.br().gfb().b.gbt(0)
 r=s.b.$1(J.jf(s.a)).glx()
 q=$.d9().d
 if(q==null){s=self.window.devicePixelRatio
-q=s===0?1:s}p=r.a/q
-o=r.b/q
-n=Math.min(p,o)*0.8
-m=A.b9M(new A.l(p/2,o/2*0.8),n,n)
-return A.EP(A.Ix(l,A.bZ(A.dy("scan_qr"),l,l,l,l,l,l,l,l,l,l,l)),B.mm,A.bs(l,A.i3(l,l,l,new A.a9b(m,l),B.w),B.p,B.q,l,l,l,l,l,l,l,l,l,l))}}
+q=s===0?1:s}p=A.b9M(new A.l(r.a/q/2,r.b/q/2),200,200)
+return A.EP(A.Ix(o,A.bZ(A.dy("scan_qr"),o,o,o,o,o,o,o,o,o,o,o)),B.mm,A.bs(o,A.i3(o,o,o,new A.a9b(p,o),B.w),B.p,B.q,o,o,o,o,o,o,o,o,o,o))}}
 A.a9b.prototype={
 aR(a,b){var s,r,q,p,o,n,m=$.af(),l=m.be()
 l.jo(B.vj)
